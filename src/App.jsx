@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="App">
       <img src={logo} alt="Morsemoji!" />
-      <p className="tagline">Convert text to morse code... with emojis!</p>
-
+      <p className="tagline">Convert "text" to morse code... with "emojis"!</p>
+	 
       <EmojiPicker dot={dot} setDot={setDot} dash={dash} setDash={setDash} />
       <br />
       <p>{error}</p>
